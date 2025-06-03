@@ -4,9 +4,9 @@
     { "type": "phone", "icon_class": "fas fa-phone-alt", "text": "0981 460 509", "link": "tel:0981460509" },
     { "type": "zalo", "icon_class": "fab fa-whatsapp", "text": "Zalo: 0981 460 509", "link": "https://zalo.me/0981460509" },
     { "type": "email", "icon_class": "fas fa-envelope", "text": "baopham639567@gmail.com", "link": "mailto:baopham639567@gmail.com" },
-    { "type": "address", "icon_class": "fas fa-map-marker-alt", "text": "123 Đường ABC, Phường X, Quận Y, TP. Hồ Chí Minh" }
+    { "type": "address", "icon_class": "fas fa-map-marker-alt", "text": "xã Đa Phước, huyện Bình Chánh, TP.Hồ Chí Minh" }
   ],
-  "google_map_iframe_src": "",
+  "google_map_iframe_src": "https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d582.8714732051837!2d106.67094169408516!3d10.651183737450438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d10.651145336816604!2d106.67132286343752!5e0!3m2!1svi!2s!4v1748961223447!5m2!1svi!2s",
   "form": {
     "submit_button_text": "Gửi Yêu Cầu"
   }
