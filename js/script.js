@@ -242,7 +242,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <!-- Ẩn CAPTCHA Formsubmit -->
                                 <input type="hidden" name="_captcha" value="false">
                                 <!-- Tùy chỉnh URL thành công (nếu muốn) -->
-                                <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+                                <input type="hidden" name="_next" value="https://car-travel-lemon.vercel.app">
 
                                 <div class="form-group">
                                     <label for="name">Họ tên:</label>
@@ -362,6 +362,31 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }).catch(error => {
         alert("Lỗi kết nối. Vui lòng thử lại!");
+      });
+    });
+  }
+});
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.querySelector("#contact-form");
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault(); // Ngăn form chuyển trang
+
+      const data = new FormData(form);
+
+      fetch(form.action, {
+        method: "POST",
+        body: data,
+        headers: { 'Accept': 'application/json' }
+      }).then(response => {
+        if (response.ok) {
+          alert("✅ Gửi thành công!"); // Hiện thông báo thành công
+          form.reset();
+        } else {
+          alert("❌ Có lỗi xảy ra. Vui lòng thử lại!");
+        }
+      }).catch(error => {
+        alert("❌ Lỗi kết nối. Vui lòng thử lại!");
       });
     });
   }
