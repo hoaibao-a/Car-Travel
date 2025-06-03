@@ -330,6 +330,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             icon.classList.remove("fa-times");
                             icon.classList.add("fa-bars");
                         }
+                        
                     });
                 });
             }
