@@ -222,26 +222,34 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    function renderContact(contactData) {
-        try {
-            const contactSection = document.getElementById("contact");
-            if (contactSection && contactData) {
-                const contactInfoHTML = (contactData.info || []).map(item =>
-                    `<p><i class="${item.icon_class || ''}"></i> ${item.link ? `<a href="${item.link}" ${item.type === "zalo" ? "target=\"_blank\"" : ""}>${item.text || ''}</a>` : (item.text || '')}</p>`
-                ).join("");
-                const mapHTML = contactData.google_map_iframe_src ? `
+  function renderContact(contactData) {
+    try {
+        const contactSection = document.getElementById("contact");
+        if (contactSection && contactData) {
+            // Tạo phần thông tin liên lạc (nếu có)
+            const contactInfoHTML = (contactData.info || []).map(item =>
+                `<p><i class="${item.icon_class || ''}"></i> ${
+                    item.link
+                        ? `<a href="${item.link}" ${item.type === "zalo" ? 'target="_blank"' : ""}>${item.text || ''}</a>`
+                        : (item.text || '')
+                }</p>`
+            ).join("");
+
+            // Tạo phần Google Map (nếu có)
+            const mapHTML = contactData.google_map_iframe_src ? `
                 <div class="map-container">
-                    <iframe src="${contactData.google_map_iframe_src}" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="${contactData.google_map_iframe_src}" width="100%" height="300" style="border:0;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>` : "";
-                contactSection.innerHTML = `
+
+            // Render HTML cho phần contact
+            contactSection.innerHTML = `
                 <div class="container">
                     <h2>${contactData.title || "Liên hệ"}</h2>
                     <div class="contact-content">
                         <div class="contact-form-container">
-                            <form action="https://formsubmit.co/baopham639567@gmail.com" method="POST">
-                                <!-- Ẩn CAPTCHA Formsubmit -->
+                            <form id="contact-form" action="https://formsubmit.co/baopham639567@gmail.com" method="POST">
                                 <input type="hidden" name="_captcha" value="false">
-                                <!-- Tùy chỉnh URL thành công (nếu muốn) -->
                                 <input type="hidden" name="_next" value="https://car-travel-lemon.vercel.app">
 
                                 <div class="form-group">
@@ -260,7 +268,9 @@ document.addEventListener("DOMContentLoaded", () => {
                                     <label for="notes">Ghi chú:</label>
                                     <textarea id="notes" name="notes" rows="3"></textarea>
                                 </div>
-                                <button type="submit" class="cta-button">${(contactData.form && contactData.form.submit_button_text) || "Gửi"}</button>
+                                <button type="submit" class="cta-button">
+                                    ${(contactData.form && contactData.form.submit_button_text) || "Gửi"}
+                                </button>
                             </form>
                         </div>
                         <div class="contact-info-container">
@@ -271,12 +281,37 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 </div>
             `;
+
+            // Sau khi render xong form, gán JS lắng nghe submit
+            const form = document.getElementById("contact-form");
+            if (form) {
+                form.addEventListener("submit", function (e) {
+                    e.preventDefault(); // Ngăn chặn hành vi mặc định (chuyển trang)
+                    const data = new FormData(form);
+
+                    fetch(form.action, {
+                        method: "POST",
+                        body: data,
+                        headers: { 'Accept': 'application/json' }
+                    }).then(response => {
+                        if (response.ok) {
+                            alert("✅ Gửi thành công!");
+                            form.reset();
+                        } else {
+                            alert("❌ Có lỗi xảy ra. Vui lòng thử lại!");
+                        }
+                    }).catch(error => {
+                        console.error("Fetch error:", error);
+                        alert("❌ Lỗi kết nối. Vui lòng thử lại!");
+                    });
+                });
             }
-        } catch (e) {
-            console.error("Error rendering contact:", e);
-            throw e;
         }
+    } catch (e) {
+        console.error("Error rendering contact:", e);
+        throw e;
     }
+}
 
     function renderFooter(footerData) {
         try {
