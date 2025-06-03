@@ -1,0 +1,12 @@
+{
+  "company_name": "Công Ty TNHH Dịch Vụ Vận Tải Sang Trọng",
+  "tax_code": "MST: 031xxxxxxx",
+  "address": "123 Đường ABC, Phường X, Quận Y, TP. Hồ Chí Minh",
+  "social_links": [
+    { "platform": "Facebook", "icon_class": "fab fa-facebook-f", "url": "https://facebook.com/yourpage" },
+    { "platform": "Zalo", "icon_class": "fab fa-facebook-messenger", "url": "https://zalo.me/0901234567" },
+    { "platform": "Instagram", "icon_class": "fab fa-instagram", "url": "https://instagram.com/yourprofile" }
+  ],
+  "copyright_text": "© 2024 Dịch Vụ Xe 7 Chỗ. Thiết kế bởi Manus."
+}
+

@@ -1,0 +1,13 @@
+{
+  "title": "Bảng Giá Dịch Vụ",
+  "table": {
+    "headers": ["Hạng mục", "Giá", "Ghi chú"],
+    "rows": [
+      ["Xe 7 chỗ cơ bản", "10,000 VNĐ/km", "Xe đời mới, lái xe lịch sự"],
+      ["Xe 7 chỗ VIP", "15,000 VNĐ/km", "Bao gồm nước suối, wifi"],
+      ["Thuê theo giờ", "250,000 VNĐ/giờ", "Tối thiểu 2 giờ"]
+    ]
+  },
+  "note": "Liên hệ để nhận báo giá ưu đãi cho lộ trình dài hoặc thuê xe theo ngày/tuần."
+}
+

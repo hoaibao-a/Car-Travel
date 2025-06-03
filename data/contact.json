@@ -1,0 +1,14 @@
+{
+  "title": "Liên Hệ Ngay",
+  "info": [
+    { "type": "phone", "icon_class": "fas fa-phone-alt", "text": "0901 234 567", "link": "tel:0901234567" },
+    { "type": "zalo", "icon_class": "fab fa-whatsapp", "text": "Zalo: 0901 234 567", "link": "https://zalo.me/0901234567" },
+    { "type": "email", "icon_class": "fas fa-envelope", "text": "info@dichvuxe7cho.vn", "link": "mailto:info@dichvuxe7cho.vn" },
+    { "type": "address", "icon_class": "fas fa-map-marker-alt", "text": "123 Đường ABC, Phường X, Quận Y, TP. Hồ Chí Minh" }
+  ],
+  "google_map_iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.447746107584!2d106.6272993153494!3d10.82309899232098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529b8a6e8e6b3%3A0x9b8a3b8e6b3a3b8e!2zVMOibiBCw6xuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1678886400000!5m2!1svi!2s",
+  "form": {
+    "submit_button_text": "Gửi Yêu Cầu"
+  }
+}
+

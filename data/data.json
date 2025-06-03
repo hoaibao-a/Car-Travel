@@ -1,0 +1,70 @@
+{
+  "site_title": "Dịch Vụ Xe 7 Chỗ - Sang Trọng & Tin Cậy",
+  "header": {
+    "logo": {
+      "type": "text",
+      "content": "Dịch Vụ Xe 7 Chỗ",
+      "link": "#hero"
+    },
+    "navigation": [
+      { "label": "Trang chủ", "link": "#hero" },
+      { "label": "Giới thiệu", "link": "#about" },
+      { "label": "Bảng giá", "link": "#pricing" },
+      { "label": "Liên hệ", "link": "#contact" }
+    ]
+  },
+  "hero": {
+    "background_image": "images/hero-bg-placeholder.jpg",
+    "title": "Dịch vụ xe 7 chỗ CAO CẤP – Tiện nghi và đẳng cấp",
+    "subtitle": "Trải nghiệm hành trình thoải mái và an toàn cùng đội xe sang trọng và tài xế chuyên nghiệp.",
+    "cta_button": {
+      "text": "Đặt xe ngay",
+      "link": "#contact"
+    }
+  },
+  "about": {
+    "title": "Về Chúng Tôi",
+    "description": "Với nhiều năm kinh nghiệm trong lĩnh vực vận chuyển hành khách, chúng tôi tự hào mang đến dịch vụ xe 7 chỗ chất lượng cao, đáp ứng mọi nhu cầu di chuyển của quý khách. Đội ngũ tài xế của chúng tôi được đào tạo bài bản, chuyên nghiệp, luôn đặt sự an toàn và hài lòng của khách hàng lên hàng đầu. Chúng tôi cung cấp lịch trình linh hoạt, phục vụ 24/7, sẵn sàng đồng hành cùng bạn trên mọi nẻo đường.",
+    "images": [
+      { "url": "images/driver-placeholder.jpg", "alt": "Tài xế chuyên nghiệp" },
+      { "url": "images/car-interior-placeholder.jpg", "alt": "Nội thất xe 7 chỗ sang trọng" }
+    ]
+  },
+  "pricing": {
+    "title": "Bảng Giá Dịch Vụ",
+    "table": {
+      "headers": ["Hạng mục", "Giá", "Ghi chú"],
+      "rows": [
+        ["Xe 7 chỗ cơ bản", "10,000 VNĐ/km", "Xe đời mới, lái xe lịch sự"],
+        ["Xe 7 chỗ VIP", "15,000 VNĐ/km", "Bao gồm nước suối, wifi"],
+        ["Thuê theo giờ", "250,000 VNĐ/giờ", "Tối thiểu 2 giờ"]
+      ]
+    },
+    "note": "Liên hệ để nhận báo giá ưu đãi cho lộ trình dài hoặc thuê xe theo ngày/tuần."
+  },
+  "contact": {
+    "title": "Liên Hệ Ngay",
+    "info": [
+      { "type": "phone", "icon_class": "fas fa-phone-alt", "text": "0901 234 567", "link": "tel:0901234567" },
+      { "type": "zalo", "icon_class": "fab fa-whatsapp", "text": "Zalo: 0901 234 567", "link": "https://zalo.me/0901234567" },
+      { "type": "email", "icon_class": "fas fa-envelope", "text": "info@dichvuxe7cho.vn", "link": "mailto:info@dichvuxe7cho.vn" },
+      { "type": "address", "icon_class": "fas fa-map-marker-alt", "text": "123 Đường ABC, Phường X, Quận Y, TP. Hồ Chí Minh" }
+    ],
+    "google_map_iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.447746107584!2d106.6272993153494!3d10.82309899232098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529b8a6e8e6b3%3A0x9b8a3b8e6b3a3b8e!2zVMOibiBCw6xuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1678886400000!5m2!1svi!2s",
+    "form": {
+      "submit_button_text": "Gửi Yêu Cầu"
+    }
+  },
+  "footer": {
+    "company_name": "Công Ty TNHH Dịch Vụ Vận Tải Sang Trọng",
+    "tax_code": "MST: 031xxxxxxx",
+    "address": "123 Đường ABC, Phường X, Quận Y, TP. Hồ Chí Minh",
+    "social_links": [
+      { "platform": "Facebook", "icon_class": "fab fa-facebook-f", "url": "https://facebook.com/yourpage" },
+      { "platform": "Zalo", "icon_class": "fab fa-facebook-messenger", "url": "https://zalo.me/0901234567" },
+      { "platform": "Instagram", "icon_class": "fab fa-instagram", "url": "https://instagram.com/yourprofile" }
+    ],
+    "copyright_text": "© 2024 Dịch Vụ Xe 7 Chỗ. Thiết kế bởi Manus."
+  }
+}
+

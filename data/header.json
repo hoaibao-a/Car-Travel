@@ -1,0 +1,14 @@
+{
+  "logo": {
+    "type": "text",
+    "content": "Dịch Vụ Xe 7 Chỗ",
+    "link": "#hero"
+  },
+  "navigation": [
+    { "label": "Trang chủ", "link": "#hero" },
+    { "label": "Giới thiệu", "link": "#about" },
+    { "label": "Bảng giá", "link": "#pricing" },
+    { "label": "Liên hệ", "link": "#contact" }
+  ]
+}
+
