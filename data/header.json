@@ -1,8 +1,9 @@
 {
   "logo": {
-    "type": "text",
-    "content": "Dịch Vụ Xe 7 Chỗ",
-    "link": "images/background/hero-bg.jpeg"
+    "type": "image",
+    "src": "images/logo_header/logo.png",
+    "link": "/",
+    "alt": "Dịch Vụ Xe 7 Chỗ Logo"
   },
   "navigation": [
     { "label": "Trang chủ", "link": "#hero" },
@@ -11,4 +12,3 @@
     { "label": "Liên hệ", "link": "#contact" }
   ]
 }
-
