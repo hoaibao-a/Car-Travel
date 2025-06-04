@@ -4,8 +4,8 @@
   "address": "Đa Phước, Bình Chánh, Tp. Hồ Chí Minh",
   "social_links": [
     { "platform": "Facebook", "icon_class": "fab fa-facebook-f", "url": "https://facebook.com/hoaibao321" },
-    { "platform": "Zalo", "icon_class": "fab fa-whatsapp", "url": "https://zalo.me/0981460509" },
-    { "platform": "Instagram", "icon_class": "fab fa-instagram", "url": "https://instagram.com/yourprofile" }
+    { "platform": "Zalo", "icon_class": "fab fa-whatsapp", "url": "https://zalo.me/0981460509" }
+   
   ],
   "copyright_text": "© 2025 Dịch Vụ Xe 7 Chỗ. Thiết kế bởi hbao."
 }
