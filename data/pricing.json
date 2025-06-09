@@ -1,15 +1,25 @@
 {
   "title": "Bảng Giá Dịch Vụ",
   "table": {
-    "headers": ["Hạng mục", "Giá", "Ghi chú"],
-    "rows": [
-      ["Xe 7 chỗ, 1 chiều, < 100km", "11,000 VNĐ/km", "Xe đời mới, lái xe lịch sự"],
-      ["Xe 7 chỗ, 2 chiều, < 100km", "14,000 VNĐ/km", "Xe đời mới, lái xe lịch sự"],
-      ["Xe 7 chỗ, 1 chiều,> 100km", "9,000 VNĐ/km", "Xe đời mới, lái xe lịch sự"],
-      ["Xe 7 chỗ, 2 chiều, > 100km", "11,000 VNĐ/km", "Xe đời mới, lái xe lịch sự"],
-    
-      ["Thuê theo giờ", "250,000 VNĐ/giờ", "Tối thiểu 2 giờ"]
-    ]
+    "headers": [
+    "STT",
+    "Loại dịch vụ",
+    "Điều kiện",
+    "Quãng đường / Thời gian (giả định)",
+    "Đơn giá",
+    "Chi phí (VNĐ)",
+    "Ghi chú"
+  ],
+  "rows": [
+    [1, "1 chiều, < 100km", "1 chiều, dưới 100km", "80 km", "10,000 VNĐ/km", "800,000 VNĐ", "Xe Xpander 2020 MT, lái xe lịch sự"],
+    [2, "2 chiều, < 100km", "2 chiều, dưới 100km", "90 km", "13,000 VNĐ/km", "1,170,000 VNĐ", "Xe Xpander 2020 MT, lái xe lịch sự"],
+    [3, "1 chiều, > 100km", "1 chiều, trên 100km", "150 km", "8,500 VNĐ/km", "1,275,000 VNĐ", "Xe Xpander 2020 MT, lái xe lịch sự"],
+    [4, "2 chiều, > 100km", "2 chiều, trên 100km", "200 km", "10,500 VNĐ/km", "2,100,000 VNĐ", "Xe Xpander 2020 MT, lái xe lịch sự"],
+    [5, "Thuê theo giờ", "Tối thiểu 2 giờ", "3 giờ", "230,000 VNĐ/giờ", "690,000 VNĐ", "Xe Xpander 2020 MT, lái xe lịch sự"],
+    [6, "Thuê trọn gói 1 ngày (< 10 giờ)", "Giới hạn 200km", "1 ngày", "2,300,000 VNĐ/ngày", "2,300,000 VNĐ", "Xe Xpander 2020 MT, lái xe lịch sự"],
+    [7, "Thuê trọn gói 1 ngày (> 10 giờ)", "Giới hạn 300km", "1 ngày", "2,800,000 VNĐ/ngày", "2,800,000 VNĐ", "Xe Xpander 2020 MT, lái xe lịch sự"],
+    [8, "Option chờ lâu", "Chờ từ 30 phút trở lên", "1 giờ", "100,000 VNĐ/giờ", "Tính thêm theo giờ chờ", "Xe Xpander 2020 MT, lái xe lịch sự"]
+  ]
   },
   "note": "Liên hệ để nhận báo giá ưu đãi cho lộ trình dài ."
 }
