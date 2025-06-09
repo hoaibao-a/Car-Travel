@@ -1,8 +1,8 @@
 {
   "title": "Liên Hệ Ngay",
   "info": [
-    { "type": "phone", "icon_class": "fas fa-phone-alt", "text": "0981 460 509", "link": "tel:0981460509" },
-    { "type": "zalo", "icon_class": "fab fa-whatsapp", "text": "Zalo: 0981 460 509", "link": "https://zalo.me/0981460509" },
+    { "type": "phone", "icon_class": "fas fa-phone-alt", "text": "0908 875 706", "link": "tel:0908875706" },
+    { "type": "zalo", "icon_class": "fab fa-whatsapp", "text": "Zalo: 0908 875 706", "link": "https://zalo.me/0908875706" },
     { "type": "email", "icon_class": "fas fa-envelope", "text": "baopham639567@gmail.com", "link": "mailto:baopham639567@gmail.com" },
     { "type": "address", "icon_class": "fas fa-map-marker-alt", "text": "xã Đa Phước, huyện Bình Chánh, TP.Hồ Chí Minh" }
   ],
